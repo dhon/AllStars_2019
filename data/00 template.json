@@ -1,0 +1,56 @@
+{
+  "id": "MM/DD/2019 G0",
+  "mafia": [ "player", "player", "player" ],
+  "kill": [
+    [ "player", "player" ],
+    [ "player", "player" ],
+    [ "player", "player" ],
+    [ "player", "player" ],
+    [ "player", "player" ]
+  ],
+  "cop": "player",
+  "check": [
+    "player",
+    "player",
+    "player",
+    "player",
+    "player"
+  ],
+  "medic": "player",
+  "save": [
+    "player",
+    "player",
+    "player",
+    "player",
+    "player"
+  ],
+  "vigilante": "player",
+  "shot": [
+    "NONE",
+    "player",
+    "player",
+    "player",
+    "player"
+  ],
+  "vanilla_town": [
+    "player",
+    "player",
+    "player",
+    "player",
+    "player",
+    "player",
+    "player",
+    "player",
+    "player"
+  ],
+  "lynched": [
+    "player",
+    "player",
+    "player",
+    "player",
+    "player"
+  ],
+  "f3_win": null,
+  "f3_loss": null,
+  "winner": "Team"
+}
