@@ -48,7 +48,7 @@
       "dLGN",
       "Jan"
     ],
-    "f3_win": null,
-    "f3_loss": null,
+    "f3_win": [ "Rolfe" ],
+    "f3_loss": [ "Dave Dob", "dLGN" ],
     "winner": "Mafia"
 }
