@@ -50,7 +50,7 @@
       "Greg",
       "SLEEP"
     ],
-    "f3_win": null,
-    "f3_loss": null,
+    "f3_win": [ "dLGN" ],
+    "f3_loss": [ "David", "Plen" ],
     "winner": "Mafia"
 }
