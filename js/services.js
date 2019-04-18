@@ -9,11 +9,11 @@ angular.module('app.services', [])
         data = [];
         stats = [];
         gStats = {g1_town:0, g1_mafia:0, g2_town:0, g2_mafia:0, pG:null, pG1:null, pG2:null,
-                    g1_sleep1:0, g1_sleep2:0, g2_sleep1:0, g2_sleep2:0};
+                    g1_sleep1:0, g1_sleep2:0, g2_sleep1:0, g2_sleep2:0, last_updated:null};
     };
 
     function getJSON(){
-        for(var i = 0; i < 24; i++){
+        for(var i = 0; i < 28; i++){
             var ourRequest = new XMLHttpRequest();
             var num = (i+1);
             if (num < 10) num = '0' + num;
@@ -733,6 +733,7 @@ angular.module('app.services', [])
         gStats.pG1 = ((gStats.g1_town / g1) * 100).toFixed() + ' %';
         gStats.pG2 = ((gStats.g2_town / g2) * 100).toFixed() + ' %';
         gStats.pG = (((gStats.g1_town + gStats.g2_town) / g) * 100).toFixed() + ' %';
+        gStats.last_updated = data[data.length-1].id;
         return gStats;
     };
 
