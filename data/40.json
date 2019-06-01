@@ -6,8 +6,7 @@
     [ "Ghost 1", "Ghost 2" ],
     [ "Nydus", "Nydus" ],
     [ "Jan" ],
-    [ "Pope" ],
-    [ "player", "player" ]
+    [ "Pope" ]
   ],
   "cop": "Pope",
   "check": [
