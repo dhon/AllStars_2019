@@ -1,56 +1,51 @@
 {
   "id": "07/31/2019 G2",
-  "mafia": [ "player", "player", "player" ],
+  "mafia": [ "Steep", "Thor", "Ryan" ],
   "kill": [
-    [ "player", "player" ],
-    [ "player", "player" ],
-    [ "player", "player" ],
-    [ "player", "player" ],
-    [ "player", "player" ]
+    [ "Duke", "Plen" ],
+    [ "Rob Alloy", "Rob Alloy" ],
+    [ "Stockton" ],
+    [ "Greg" ],
+    [ "Kevin" ],
+    [ "Ryuzilla" ]
   ],
-  "cop": "player",
+  "cop": "Stockton",
   "check": [
-    "player",
-    "player",
-    "player",
-    "player",
-    "player"
+    "Ryuzilla",
+    "Greg",
+    "Ryan"
   ],
-  "medic": "player",
+  "medic": "Rob Alloy",
   "save": [
-    "player",
-    "player",
-    "player",
-    "player",
-    "player"
+    "Jan",
+    "Kevin"
   ],
-  "vigilante": "player",
+  "vigilante": "Kevin",
   "shot": [
     "NONE",
-    "player",
-    "player",
-    "player",
-    "player"
+    "NONE",
+    "Thor"
   ],
   "vanilla_town": [
-    "player",
-    "player",
-    "player",
-    "player",
-    "player",
-    "player",
-    "player",
-    "player",
-    "player"
+    "Colin",
+    "Jan",
+    "Rolfe",
+    "Garrinski",
+    "Striker",
+    "Greg",
+    "Ryuzilla",
+    "Plen",
+    "Duke"
   ],
   "lynched": [
-    "player",
-    "player",
-    "player",
-    "player",
-    "player"
+    "Rolfe",
+    "Steep",
+    "Garrinski",
+    "SLEEP",
+    "Striker",
+    "Ryan"
   ],
-  "f3_win": null,
-  "f3_loss": null,
-  "winner": "Team"
+  "f3_win": [ "Colin", "Jan" ],
+  "f3_loss": [ "Ryan" ],
+  "winner": "Town"
 }
