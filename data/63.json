@@ -44,7 +44,7 @@
     "Rollo",
     "Jan"
   ],
-  "f3_win": null,
-  "f3_loss": null,
+  "f3_win": [ "Kevin", "Rich" ],
+  "f3_loss": [ "Jan" ],
   "winner": "Town"
 }
