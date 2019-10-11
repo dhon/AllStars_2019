@@ -13,7 +13,7 @@ angular.module('app.services', [])
     };
 
     function getJSON(){
-        for(var i = 0; i < 66; i++){
+        for(var i = 0; i < 71; i++){
             var ourRequest = new XMLHttpRequest();
             var num = (i+1);
             if (num < 10) num = '0' + num;
