@@ -1,17 +1,16 @@
 {
-  "id": "MM/DD/2019 G0",
+  "id": "MM/DD/2019 G#",
   "mafia": [ "player", "player", "player" ],
   "kill": [
     [ "player", "player" ],
     [ "player", "player" ],
     [ "player", "player" ],
-    [ "player", "player" ],
-    [ "player", "player" ]
+    [ "player" ],
+    [ "player" ],
+    [ "player" ]
   ],
   "cop": "player",
   "check": [
-    "player",
-    "player",
     "player",
     "player",
     "player"
@@ -20,16 +19,12 @@
   "save": [
     "player",
     "player",
-    "player",
-    "player",
     "player"
   ],
   "vigilante": "player",
   "shot": [
     "NONE",
-    "player",
-    "player",
-    "player",
+    "NONE",
     "player"
   ],
   "vanilla_town": [
@@ -48,9 +43,10 @@
     "player",
     "player",
     "player",
+    "player",
     "player"
   ],
-  "f3_win": null,
-  "f3_loss": null,
+  "f3_win": [],
+  "f3_loss": [],
   "winner": "Team"
 }
